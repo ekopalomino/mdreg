@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('apps.pages.login');
+    return view('apps.pages.index');
 });
 
 Auth::routes(['register' => false]);
